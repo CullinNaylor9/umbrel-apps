@@ -15,4 +15,5 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
       - ${APP_DATA_DIR}/data/books:/books
+      - /data/umbrel-os/home/umbrel/umbrel/app-data/big-bear-umbrel-calibre-web-automated-book-downloader/data/ebooks:/ebooks
     restart: on-failure
