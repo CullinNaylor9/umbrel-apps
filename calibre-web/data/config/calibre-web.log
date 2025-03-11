@@ -1,0 +1,20 @@
+[2025-03-11 16:16:53,438]  WARN {cps.config_sql:364} Log path /config/calibre-web.log not valid, falling back to default
+[2025-03-11 16:16:53,446]  WARN {cps.config_sql:364} Log path  not valid, falling back to default
+[2025-03-11 16:16:53,449]  WARN {cps.config_sql:400} invalidating configuration
+[2025-03-11 16:16:53,449]  WARN {cps.config_sql:364} Log path  not valid, falling back to default
+[2025-03-11 16:16:53,467]  INFO {cps:178} Starting Calibre Web...
+[2025-03-11 16:16:53,669]  WARN {py.warnings:109} /lsiopy/lib/python3.10/site-packages/flask_limiter/extension.py:333: UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+  warnings.warn(
+
+[2025-03-11 16:16:53,840]  INFO {apscheduler.scheduler:181} Scheduler started
+[2025-03-11 16:16:53,840]  INFO {apscheduler.scheduler:895} Added job "delete temp" to job store "default"
+[2025-03-11 16:16:53,840]  INFO {apscheduler.scheduler:895} Added job "end scheduled task" to job store "default"
+[2025-03-11 16:16:53,840]  INFO {apscheduler.scheduler:895} Added job "immediately delete temp" to job store "default"
+[2025-03-11 16:16:53,841]  INFO {apscheduler.executors.default:123} Running job "immediately delete temp (trigger: date[2025-03-11 16:16:53 UTC], next run at: 2025-03-11 16:16:53 UTC)" (scheduled at 2025-03-11 16:16:53.840883+00:00)
+[2025-03-11 16:16:53,849]  INFO {apscheduler.scheduler:641} Removed job 34d08d75af0a40339bb76159d51e999f
+[2025-03-11 16:16:53,850]  INFO {apscheduler.executors.default:144} Job "immediately delete temp (trigger: date[2025-03-11 16:16:53 UTC], next run at: 2025-03-11 16:16:53 UTC)" executed successfully
+[2025-03-11 16:16:53,943]  INFO {cps.ub:764} github Blueprint Created
+[2025-03-11 16:16:53,946]  INFO {cps.ub:764} google Blueprint Created
+[2025-03-11 16:16:54,675]  INFO {cps.server:218} Starting Gevent server on [::]:8083
+[2025-03-11 16:17:09,313]  WARN {cps.config_sql:364} Log path  not valid, falling back to default
+[2025-03-11 16:17:09,318]  WARN {cps.config_sql:364} Log path  not valid, falling back to default
